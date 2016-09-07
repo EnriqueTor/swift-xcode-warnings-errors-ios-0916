@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var favoriteActor = "Leo"
+        favoriteActor = "Brad"
     }
     
     func unicorn() -> String {
@@ -27,3 +30,6 @@ class ViewController: UIViewController {
     }
     
 }
+
+
+
